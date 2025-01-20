@@ -1,0 +1,148 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    background: rgba(102, 90, 225, 1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;    
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    width: 513px;
+    height: 122px;
+    top: -1150px;
+    left: -2437px;   
+    
+
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    width: 448px;
+    height: 71px;
+    top: -1029px;
+    left: -2437px;
+
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;width: 515px;
+    width: 515px;    
+    left: -2437px;      
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;       
+    border-radius: 50px;
+    background: rgba(173, 255, 0, 1);   
+    top: 15px;
+    left: 46px;    
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;    
+    color: rgba(0, 0, 0, 1);   
+    cursor: pointer;
+    border: none;    
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+@media screen and (max-width: 700px) {
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    header {
+        display: none;
+    }
+
+    .logo-image {
+        width: 354px;
+        height: 317px;
+        margin: 149px 20px 0 10px;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+        width: 263px;
+        height: 52px;
+        margin-top: 23px;
+        margin-bottom: 7px;
+    }
+
+    h2{
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        margin-bottom: 17px;
+    }
+
+    p {
+        display: none;
+        
+    }
+
+
+
+   
+}
